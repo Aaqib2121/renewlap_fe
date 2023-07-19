@@ -1,3 +1,3 @@
-export const server = "https://renewlapbackend.netlify.app/api/v2";
+export const server = "https://shop.renewlap.com//api/v2";
 
-export const backend_url = "https://renewlapbackend.netlify.app";
+export const backend_url = "https://shop.renewlap.com/";
