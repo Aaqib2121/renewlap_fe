@@ -22,7 +22,7 @@ const ShopLogin = () => {
           email,
           password,
         },
-        { withCredentials: true }
+        { headers: {} }
       )
       .then((res) => {
         toast.success("Login Success!");
