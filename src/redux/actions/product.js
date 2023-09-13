@@ -91,9 +91,10 @@ export const getAllProducts = () => async (dispatch) => {
       payload: data.products,
     });
   } catch (error) {
-    dispatch({
-      type: "getAllProductsFailed",
-      payload: error.response.data.message,
-    });
+    console.log(error);
+    // dispatch({
+    //   type: "getAllProductsFailed",
+    //   payload: error.response.data.message,
+    // });
   }
 };
