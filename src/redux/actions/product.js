@@ -83,7 +83,7 @@ export const getAllProducts = () => async (dispatch) => {
     });
 
     const { data } = await axios.get(`${server}/product/get-all-products`,{
-      withCredentials: true,
+      headers: {},
     }
     );
     dispatch({
